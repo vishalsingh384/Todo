@@ -111,7 +111,7 @@ body{
       width: 15rem;
       margin-top: 1rem;
       background-color: #f1f2f1;
-
+      border: 1px solid black;
   }
 
   .ticket-color{
@@ -125,7 +125,7 @@ body{
   }
 
   .task-area{
-      height: calc(100% - 2rem - 1rem);
+      height: calc(100% - 2rem - 2rem);
       font-size: 1.5rem;
       outline: none;
       overflow-wrap: break-word; /*ye jab box ke andar line by line likh rahe aur jab box ka length chota padh jaaye tab wo next line pe aa jaaye. Break-word matlab word ko break bhi agar karna apde to kardo*/
@@ -135,4 +135,9 @@ body{
       display: flex;
       justify-content: space-evenly;
       flex-wrap: wrap;
+  }
+
+  .lock-on{
+    display: flex;
+    justify-content: end;
   }
